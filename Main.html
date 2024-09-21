@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai Dream Tours and Travel</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        /* card main heading text */
+        #text {
+        font-size: 3rem;
+        color: red;
+        background-color: #000000;
+        -webkit-animation: h2 2s infinite;
+        animation: h2 2s infinite;
+    }
+
+    @keyframes h2 {
+        0% {
+            text-shadow: 0 0 3px #f1c40f;
+            color: #fff;
+        }
+
+        25% {
+            text-shadow: 0 0 12px #f1c40f;
+        }
+
+        50% {
+            text-shadow: 0 0 2px #f1c40f;
+            color: pink;
+        }
+
+        75% {
+            text-shadow: 0 0 12px #f1c40f;
+        }
+
+        100% {
+            text-shadow: 0 0 3px #f1c40f;
+            color: #fff;
+        }
+    }
+
+        
+
+        /* card main heading text */
+
+
+        /*---- Tour  Main Style  ----*/
+        #cards_landscape_wrap-2 {
+            text-align: center;
+            background: #F7F7F7;
+        }
+
+        #cards_landscape_wrap-2 .container {
+            padding-top: 2px;
+            padding-bottom: 20px;
+        }
+
+        #cards_landscape_wrap-2 a {
+            text-decoration: none;
+            outline: none;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer {
+            border-radius: 5px;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer .image-box {
+            background: #ffffff;
+            overflow: hidden;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+            border-radius: 5px;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer .image-box img {
+            transition:-webkit-transition all .9s ease;
+            -moz-transition: all .9s ease;
+            -o-transition: all .9s ease;
+            -ms-transition: all .9s ease;
+            width: 100%;
+            height: 200px;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+            opacity: 0.7;
+            -webkit-transform: scale(1.15);
+            -moz-transform: scale(1.15);
+            -ms-transform: scale(1.15);
+            -o-transform: scale(1.15);
+            transform: scale(1.15);
+        }
+
+        #cards_landscape_wrap-2 .card-flyer .text-box {
+            text-align: center;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+            padding: 30px 18px;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer {
+            background: #FFFFFF;
+            margin-top: 50px;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -ms-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+        }
+
+        #cards_landscape_wrap-2 .card-flyer:hover {
+            background: #fff;
+            box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -ms-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            margin-top: 50px;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer .text-box p {
+            margin-top: 1px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #000000;
+        }
+
+        #cards_landscape_wrap-2 .card-flyer .text-box h6 {
+            margin-top: 0px;
+            margin-bottom: 4px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Roboto Black', sans-serif;
+            letter-spacing: 1px;
+            color: #00acc1;
+        }
+
+        /*---- Tour  Main Style  ----*/
+        
+    </style>
+</head>
+
+<body>
+    <!-- NavBar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fs-4">
+        <div class="container-fluid">
+            <img src="mumbai-logo1-removebg-preview.png" alt="logo" width="10%" height="10%">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active fw-bold" href="#Tour" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tours
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#Tour">Elephanta Caves</a></li>
+                            <li><a class="dropdown-item" href="#Tour">City Sightseeing</a></li>
+                            <li><a class="dropdown-item" href="#Tour">Food Tasting</a></li>
+                            <li><a class="dropdown-item" href="#Tour">Hill Stations</a></li>
+                            <li><a class="dropdown-item" href="#Tour">Bollywood</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="#book" tabindex="-1" aria-disabled="true">Book Trip</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold " href="#about">About Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- NavBar end-->
+
+
+    <!-- image -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="city.png" class="d-block w-100 h-25 mb-4" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="dhravi.png" class="d-block w-100 h-25" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="bolly.png" class="d-block w-100 h-25" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- image end -->
+
+    <!-- text -->
+    <h2 class="bg-dark text-white text-center py-3 fs-1 fw-bold mt-2"
+        style=" word-spacing: 10px;line-height: 50px;    font-family: 'Times New Roman', Times, serif; ">
+        Explore Historic Wonders And Gain Cultural Insights With <br> The Best Tour Agency In Mumbai</h2>
+    <!-- text -->
+
+    <!-- cards text -->
+    <section class="box1">
+        <div class="content py-3 fw-bold mt-3">
+            <h2 class="  text-center" id="text">Why Is Mumbai Dream Tours & Travels The Best Tour Agency In <br> Mumbai?
+            </h2>
+        </div>
+
+
+
+        <div class="row mt-5">
+
+            <div class="feature-box col-lg-3 ms-auto" id="main-div"
+                style="text-align:center;justify-content: space-around; padding-right: 3rem;  ">
+                <i class="fa fa-hand-peace-o" style="font-size:6rem;color:#f1c40f; "></i>
+                <h3 class="feature-title fs-2 " style="color: #f1c40f;"> All-Inclusive Mumbai Tours</h3>
+                <p class="pra fs-5">Prevent overpayment and hidden charges with our comprehensive Mumbai Tours.</p>
+
+            </div>
+
+            <div class="feature-box col-lg-3 ms-auto"
+                style="text-align: center; justify-content: space-evenly; padding-right: 3rem;">
+
+                <i class="fa fa-child" aria-hidden="true" style="font-size:6rem;color:#f1c40f"></i>
+                <h3 class="feature-title fs-2" style="color: #f1c40f;">English Speaking Guides</h3>
+                <p class="pra fs-5">Enjoy every aspect of your Mumbai City tour with our fluent, local English-speaking
+                    guides.</p>
+            </div>
+
+
+            <div class="feature-box col-lg-3 ms-auto"
+                style="text-align: center; justify-content: space-evenly; padding-right: 3rem;">
+                <i class="fa fa-users" aria-hidden="true" style="font-size:6rem;color:#f1c40f"></i>
+                <h3 class="feature-title fs-2" style="color: #f1c40f;">Tours with a Purpose</h3>
+                <p class="pra fs-5">Explore Mumbai while supporting a meaningful cause, 20% of profits are saved to
+                    Magical Homes saving box.
+                </p>
+            </div>
+    </section>
+    <!-- cards text -->
+
+
+
+    <!-- Tours -->
+    <section class="box1 " id="Tour">
+        <div class="container-fluid  py-3 fw-bold mt-5">
+            <h2 class="  text-center" id="text2" style="color:#f1c40f; font-size: 3rem;">8 Exciting Things To Do With
+                The Best Tour &
+                Travel Agency In Mumbai</h2>
+
+
+            <!-- Topic Cards -->
+            <div id="cards_landscape_wrap-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-1">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="mumbai-half-day-city.jpg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Mumbai Private<br> Tour</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="ba.jpg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Dharavi Slum <br>Tour</h6>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="OIP.jpeg" alt="" />
+                                        </div>
+
+                                        <div class="text-container">
+                                            <h6>Elephanta Caves <br>Tour </h6>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="R.jpeg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Mumbai Food <br> Tour</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="Khandala-Mumbai.jpg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Mumbai <br> Hill Stations</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="maxresdefault.jpg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Mumbai Film City <br>Tour </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="Mumbai-Beaches-1.jpg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Beaches in<br>Mumbai </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="R (1).jpeg" alt="" />
+                                        </div>
+                                        <div class="text-container">
+                                            <h6>Famous Temple <br> in Mumbai </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!-- tour -->
+
+
+    <!-- Book Now form -->
+    <div class="content py-3 fw-bold ms-auto">
+        <h2 class="  text-center" id="text">Book Your Trip⭐</h2>
+    </div>
+    <section class="container  bg-warning w-50 px-2 my-2" id="book">
+
+
+
+
+        <form class="row g-3 p-3 shadow-lg-2">
+
+            <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6  ">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6">
+                <label for="inputState" class="form-label">Choose Your Destination</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Bollywood Tour</option>
+                    <option>Dharavi Slum Tour | Dharavi Tour</option>
+                    <option>Elephanta Caves Tour | Elephanta Caves Mumbai
+                    </option>
+                    <option>Hill Stations</option>
+                    <option>Kanheri Caves Mumbai</option>
+                    <option>Mumbai Film City Tour | Bollywood Tour Mumbai
+                    </option>
+                    <option>Mumbai Food Tour</option>
+                    <option>Mumbai Private Tour | Bombay City Tour</option>
+
+                </select>
+            </div>
+
+            <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6">
+                <label for="inputCity" class="form-label">Members</label>
+                <input type="number" class="form-control" id="inputCity">
+            </div>
+
+            <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6">
+                <label for="inputCity" class="form-label">Date</label>
+                <input type="date" class="form-control" id="inputCity">
+
+            </div>
+
+
+            <div class=" col-sm-6  col-md-8  col-lg-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class=" col-sm-6  col-md-8 col-12">
+                <button type="submit" class="btn btn-primary">Book Now</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- form -->
+
+
+    <!-- packages-->
+
+    <h2 class="text-center py-4 fw-bold" style="color: #f1c40f; font-size: 2rem;">⚡Trending Tours</h2>
+    <section class="  row gx-4 my-4 mx-auto">
+
+        <div class="card shadow-lg col-lg-3  col-md-3 col-sm-6 col-xs-12 my-2 mx-auto " style="width: 18rem;">
+            <img src="mumbai-half-day-city.jpg" class="card-img-top  w-100 h-50 mt-2  " alt="Mango cake">
+            <div class="card-body ">
+                <h5 class="card-title">Mumbai Half Day Tour</h5>
+                <br>
+                <hr>
+                <a href="#" class="btn btn-primary position-absolute bottom-20 end-0 " style="margin-right :15%;"> Book
+                    Now</a>
+                <h4 class="d-inline-block text-success">$80</h4>
+
+
+            </div>
+        </div>
+
+        <div class="card shadow-lg col-lg-3   col-md-3 col-sm-6 col-xs-12 my-2 mx-auto " style="width: 18rem;">
+            <img src="OIP.jpeg" class="card-img-top  w-100 h-50 mt-2" alt="dount">
+            <div class="card-body">
+                <h5 class="card-title">Elephanta Caves Tour</h5>
+                <br>
+                <hr>
+                <h4 class="d-inline-block text-success">$70</h4>
+                <a href="" class="btn btn-primary position-absolute bottom-20 end-0 " style="margin-right :15%;"> Book
+                    Now</a>
+
+            </div>
+        </div>
+
+        <div class="card  shadow-lg col-lg-3   col-md-3 col-sm-6 col-xs-12 my-2 mx-auto " style="width: 18rem;">
+            <img src="R.jpeg" class="card-img-top  w-100 h-50 mt-2" alt="pastry">
+            <div class="card-body">
+                <h5 class="card-title">Food Tour</h5>
+                <br>
+                <hr>
+                <h4 class="d-inline-block text-success">$30</h4>
+                <a href="" class="btn btn-primary position-absolute bottom-20 end-0 " style="margin-right :15%;"> Book
+                    Now</a>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- packages -->
+
+
+    <!-- About us -->
+    <section id="about">
+        <div class="card mb-3" style="width: 100%; ">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="istockphoto.jpg" class="img-fluid rounded-start" alt="..."
+                        style="width:100%;  height: 100%;">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h6 class="card-title fs-1 " style="color: #f1c40f;">About Us</h6>
+                        <p class="card-title fs-5 "><b>Manasvi P. Brown serves as the President and Chief Executive
+                            Officer (CEO) of Mumbai Dream Tours & Travels .</b>  </p>
+                        <p class="card-text fs-5">Planning a vacation can be a bit overwhelming. That’s where Mumbai Dream
+                            Tours & Travels comes in! We help you explore the most iconic parts of Mumbai and experience
+                            life as a Mumbaikar on our fun and hassle-free Mumbai City tour.<br>
+                            At Mumbai Dream Tours & Travels, the people make all the difference. As the best tour agency
+                            in Mumbai, our Mumbai tour guides craft the perfect tours like the Mumbai sightseeing tour,
+                            Dharavi slum tour, Elephanta caves tour, Mumbai food tour, and many more. Don’t wait any
+                            longer, book your Mumbai tour today!</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted bg-warning fw-bold "
+        style="margin-top: 2rem; color: #000000;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom fs-5 ">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5 ">
+                <!-- Grid row -->
+                <div class="row mt-3 fs-5">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-1">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="mumbai-logo1-removebg-preview.png" alt="logo" width="80%" height="25%">
+                        </h6>
+                        <p>
+                            Make Memories With The Best Tour & Travel Agency In Mumbai
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Tours
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Mumbai Half Day Tour</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Dharavi Slum Tour</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Elephanta Caves Tour</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Hill Stations</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Tours</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Blog</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Book your Trip</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fa fa-home me-3"></i> Mumbai,Gadhi Road-400312</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDTT.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+</body>
+
+</html>
